@@ -10,7 +10,7 @@ h1 {
   justify-content: center;
   margin-bottom: 30px;
   color: #191970;
-  font-family: "Pattaya",sans-serif;
+  font-family: 'Homemade Apple', cursive;
 }
 
 body {
@@ -29,6 +29,20 @@ img {
   height: 250px;
   width: 400px;
   margin: 3px;
+}
+
+@media screen and (max-width: 900px) {
+  img{
+    height: 150px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  img{
+    height: 100px;
+    width: 250px;
+  }
 }
 
 /* .top {
